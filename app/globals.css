@@ -41,6 +41,7 @@ body {
 }
 
 body {
+  font-family: var(--font-mono);
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -59,4 +60,29 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+/* Additional styles for your QuizWiz project */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: var(--border-radius);
+  background-color: rgba(var(--callout-rgb), 0.5);
+}
+
+.card {
+  background-color: var(--card-rgb);
+  border-radius: var(--border-radius);
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid rgb(var(--card-border-rgb));
+}
+
+.callout {
+  background-color: rgb(var(--callout-rgb));
+  border: 1px solid rgb(var(--callout-border-rgb));
+  border-radius: var(--border-radius);
+  padding: 15px;
+  margin: 10px 0;
 }
